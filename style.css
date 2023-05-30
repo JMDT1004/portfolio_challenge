@@ -1,0 +1,42 @@
+*{
+    background-color: lightblue;
+    font-family: monospace;
+    width:auto
+}
+header {
+    display: flex;
+    list-style-type: none;
+    justify-content:space-between;
+}
+header nav{
+    display: flex;
+}
+header nav li{
+    margin-right: 10px;
+    padding-top: 35px;
+}
+.contact{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.contact nav{
+    display:flex;
+}
+.contact nav li{
+    margin-right: 10px;
+    padding-top: 25px;
+}
+.work{
+    
+    display:flex;
+}
+.flex-container {
+    list-style-type: none;
+    display: flex;
+  }
+@media (min-width: 768px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
