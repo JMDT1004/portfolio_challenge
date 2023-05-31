@@ -40,3 +40,14 @@ footer a {
   color: white;
   text-decoration: none;
 }
+
+@media (max-width:768px){
+  .column {
+    background: red;
+  }
+}
+@media (max-height:600px){
+  .column {
+    background:blue;
+  }
+}
