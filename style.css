@@ -1,7 +1,7 @@
 *{
-    background-color: lightblue;
+    background-color: rgb(124, 180, 187);
     font-family: monospace;
-    
+    width: auto;
 }
 header {
     display: flex;
@@ -27,8 +27,10 @@ header nav li{
     margin-right: 10px;
     padding-top: 25px;
 }
-.portfolio {
-    display:flex;
+.portfolio a{
     flex-wrap: wrap;
-    width: 600px;
+}
+@media screen and (max-width:768px){
+    .portfolio a{
+        width: 100%;}
 }
